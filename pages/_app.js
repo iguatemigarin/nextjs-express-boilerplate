@@ -1,7 +1,7 @@
 import App, { Container } from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import { msTheme, dnTheme } from 'marley-spoon-ui'
+import { msTheme, dnTheme } from '../ms_ui/src/themes'
 
 export default class MyApp extends App {
   static async getInitialProps ({ Component, ctx }) {

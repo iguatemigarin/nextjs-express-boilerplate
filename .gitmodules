@@ -1,0 +1,4 @@
+[submodule "ms_ui"]
+	path = ms_ui
+	url = git@github.com:marleyspoon/ms_ui.git
+	branch = master

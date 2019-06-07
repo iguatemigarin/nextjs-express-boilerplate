@@ -11,18 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonfellows/nextjs-express-boilerplate.git"
+    "url": "git+https://github.com/iguatemiegarin/nextjs-express-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jasonfellows/nextjs-express-boilerplate/issues"
+    "url": "https://github.com/iguatemigarin/nextjs-express-boilerplate/issues"
   },
-  "homepage": "https://github.com/jasonfellows/nextjs-express-boilerplate#readme",
+  "homepage": "https://github.com/iguatemigarin/nextjs-express-boilerplate#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "marley-spoon-ui": "^0.0.5",
     "next": "8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
