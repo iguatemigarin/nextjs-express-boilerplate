@@ -18,7 +18,7 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <Container>
-        <ThemeProvider theme={msTheme}>
+        <ThemeProvider theme={dnTheme}>
           <Component {...pageProps} />
         </ThemeProvider>
       </Container>
