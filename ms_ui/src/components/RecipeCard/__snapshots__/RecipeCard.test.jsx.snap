@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeCard renders correctly with dn theme 1`] = `
+.c2 {
+  background-image: url(/images/dn/meat.svg);
+  top: 20px;
+  right: 20px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.c1 {
+  position: relative;
+  height: auto;
+}
+
+.c3 {
+  display: block;
+}
+
+.c8 {
+  background-color: #f4f2f9;
+  border-radius: 100px;
+  color: undefined;
+  font: 10px/1.5 "Galano Grotesque Medium",sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.c7 {
+  padding-left: 0;
+  margin: 0;
+}
+
+.c0 {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.c4 {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.c5 {
+  color: #3a3a3a;
+  font: 24px/0 "Galano Grotesque Medium",sans-serif;
+}
+
+.c6 {
+  font: 16px/1.5 "Galano Grotesque Regular",sans-serif;
+  margin: 0 0 15px;
+  color: #747475;
+}
+
+<RecipeCard
+  attributes={
+    Array [
+      Object {
+        "key": "kid_friendly",
+        "name": "kinderfreundlich",
+      },
+      Object {
+        "key": "healthy_choice",
+        "name": "Fit & Gesund",
+      },
+      Object {
+        "key": "poultry",
+        "name": "Geflügel",
+      },
+      Object {
+        "key": "no_gluten_ingredients",
+        "name": "glutenarm",
+      },
+    ]
+  }
+  image={
+    Object {
+      "url": "https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg",
+    }
+  }
+  isClassic={false}
+  mealType="MEAT"
+  onCardClick={[MockFunction]}
+  subtitle="Subtitle for MS"
+  title="Just Fry It MS"
+>
+  <styled.div
+    onClick={[Function]}
+  >
+    <div
+      className="c0"
+      onClick={[Function]}
+    >
+      <RecipeImage
+        alt="Just Fry It MS"
+        mealType="MEAT"
+        src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+      >
+        <styled.div>
+          <div
+            className="c1"
+          >
+            <MealTypeIcon
+              mealType="MEAT"
+            >
+              <styled.div
+                mealType="MEAT"
+              >
+                <div
+                  className="c2"
+                />
+              </styled.div>
+            </MealTypeIcon>
+            <styled.img
+              alt="Just Fry It MS"
+              src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+            >
+              <img
+                alt="Just Fry It MS"
+                className="c3"
+                src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+              />
+            </styled.img>
+          </div>
+        </styled.div>
+      </RecipeImage>
+      <styled.div>
+        <div
+          className="c4"
+        >
+          <styled.h2>
+            <h2
+              className="c5"
+            >
+              Just Fry It MS
+            </h2>
+          </styled.h2>
+          <styled.div>
+            <div
+              className="c6"
+            >
+              Subtitle for MS
+            </div>
+          </styled.div>
+          <MealAttributeList
+            attributes={
+              Array [
+                Object {
+                  "key": "kid_friendly",
+                  "name": "kinderfreundlich",
+                },
+                Object {
+                  "key": "healthy_choice",
+                  "name": "Fit & Gesund",
+                },
+                Object {
+                  "key": "poultry",
+                  "name": "Geflügel",
+                },
+                Object {
+                  "key": "no_gluten_ingredients",
+                  "name": "glutenarm",
+                },
+              ]
+            }
+          >
+            <styled.ul>
+              <ul
+                className="c7"
+              >
+                <styled.li
+                  key="kid_friendly"
+                >
+                  <li
+                    className="c8"
+                  >
+                    kinderfreundlich
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="healthy_choice"
+                >
+                  <li
+                    className="c8"
+                  >
+                    Fit & Gesund
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="poultry"
+                >
+                  <li
+                    className="c8"
+                  >
+                    Geflügel
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="no_gluten_ingredients"
+                >
+                  <li
+                    className="c8"
+                  >
+                    glutenarm
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </MealAttributeList>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</RecipeCard>
+`;
+
+exports[`RecipeCard renders correctly with ms theme 1`] = `
+.c2 {
+  background-image: url(/images/ms/meat.svg);
+  top: 15px;
+  right: 15px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.c1 {
+  position: relative;
+  height: auto;
+}
+
+.c3 {
+  display: block;
+}
+
+.c8 {
+  background-color: #f6f6f6;
+  border-radius: none;
+  color: undefined;
+  font: 10px/1.5 "Avenir Demi",sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.c7 {
+  padding-left: 0;
+  margin: 0;
+}
+
+.c0 {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.c4 {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.c5 {
+  color: #2d2926;
+  font: 20px/0 "Avenir Medium",sans-serif;
+}
+
+.c6 {
+  font: 16px/1.5 "Avenir Regular",sans-serif;
+  margin: 0 0 15px;
+  color: #413b38;
+}
+
+<RecipeCard
+  attributes={
+    Array [
+      Object {
+        "key": "kid_friendly",
+        "name": "kinderfreundlich",
+      },
+      Object {
+        "key": "healthy_choice",
+        "name": "Fit & Gesund",
+      },
+      Object {
+        "key": "poultry",
+        "name": "Geflügel",
+      },
+      Object {
+        "key": "no_gluten_ingredients",
+        "name": "glutenarm",
+      },
+    ]
+  }
+  image={
+    Object {
+      "url": "https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg",
+    }
+  }
+  isClassic={false}
+  mealType="MEAT"
+  onCardClick={[MockFunction]}
+  subtitle="Subtitle for MS"
+  title="Just Fry It MS"
+>
+  <styled.div
+    onClick={[Function]}
+  >
+    <div
+      className="c0"
+      onClick={[Function]}
+    >
+      <RecipeImage
+        alt="Just Fry It MS"
+        mealType="MEAT"
+        src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+      >
+        <styled.div>
+          <div
+            className="c1"
+          >
+            <MealTypeIcon
+              mealType="MEAT"
+            >
+              <styled.div
+                mealType="MEAT"
+              >
+                <div
+                  className="c2"
+                />
+              </styled.div>
+            </MealTypeIcon>
+            <styled.img
+              alt="Just Fry It MS"
+              src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+            >
+              <img
+                alt="Just Fry It MS"
+                className="c3"
+                src="https://mscdn.freetls.fastly.net/media/recipes/12295/main_photos/medium/ID0723_web-cc638b0227eefd29aab6c0e71a930475.jpg"
+              />
+            </styled.img>
+          </div>
+        </styled.div>
+      </RecipeImage>
+      <styled.div>
+        <div
+          className="c4"
+        >
+          <styled.h2>
+            <h2
+              className="c5"
+            >
+              Just Fry It MS
+            </h2>
+          </styled.h2>
+          <styled.div>
+            <div
+              className="c6"
+            >
+              Subtitle for MS
+            </div>
+          </styled.div>
+          <MealAttributeList
+            attributes={
+              Array [
+                Object {
+                  "key": "kid_friendly",
+                  "name": "kinderfreundlich",
+                },
+                Object {
+                  "key": "healthy_choice",
+                  "name": "Fit & Gesund",
+                },
+                Object {
+                  "key": "poultry",
+                  "name": "Geflügel",
+                },
+                Object {
+                  "key": "no_gluten_ingredients",
+                  "name": "glutenarm",
+                },
+              ]
+            }
+          >
+            <styled.ul>
+              <ul
+                className="c7"
+              >
+                <styled.li
+                  key="kid_friendly"
+                >
+                  <li
+                    className="c8"
+                  >
+                    kinderfreundlich
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="healthy_choice"
+                >
+                  <li
+                    className="c8"
+                  >
+                    Fit & Gesund
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="poultry"
+                >
+                  <li
+                    className="c8"
+                  >
+                    Geflügel
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="no_gluten_ingredients"
+                >
+                  <li
+                    className="c8"
+                  >
+                    glutenarm
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </MealAttributeList>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</RecipeCard>
+`;

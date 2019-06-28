@@ -1,0 +1,750 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OptionGroup renders correctly with dn theme 1`] = `
+.c2 {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  -webkit-clip: rect(1px,1px,1px,1px);
+  clip: rect(1px,1px,1px,1px);
+}
+
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+  border-top: 2px solid #21bbb1;
+  border-right: 2px solid #21bbb1;
+  border-bottom: 2px solid #21bbb1;
+  background-color: #ffffff;
+  padding: 11px 0;
+  text-align: center;
+  font: 14px/1.5 "Galano Grotesque Regular",sans-serif;
+  background-color: #bceae7;
+  font-family: "Galano Grotesque Medium",sans-serif;
+}
+
+.c1:hover,
+.c1:focus {
+  background-color: #def5f4;
+}
+
+.c1:first-child {
+  border-left: 2px solid #21bbb1;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.c1:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+  border-top: 2px solid #21bbb1;
+  border-right: 2px solid #21bbb1;
+  border-bottom: 2px solid #21bbb1;
+  background-color: #ffffff;
+  padding: 11px 0;
+  text-align: center;
+  font: 14px/1.5 "Galano Grotesque Regular",sans-serif;
+}
+
+.c3:hover,
+.c3:focus {
+  background-color: #def5f4;
+}
+
+.c3:first-child {
+  border-left: 2px solid #21bbb1;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.c3:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<WithTheme(OptionGroup)
+  name="deliveryDay"
+  onSelect={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "label": "Mon",
+        "value": 0,
+      },
+      Object {
+        "label": "Tue",
+        "value": 1,
+      },
+      Object {
+        "label": "Wed",
+        "value": 2,
+      },
+      Object {
+        "label": "Thu",
+        "value": 3,
+      },
+    ]
+  }
+>
+  <OptionGroup
+    name="deliveryDay"
+    onSelect={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Mon",
+          "value": 0,
+        },
+        Object {
+          "label": "Tue",
+          "value": 1,
+        },
+        Object {
+          "label": "Wed",
+          "value": 2,
+        },
+        Object {
+          "label": "Thu",
+          "value": 3,
+        },
+      ]
+    }
+    theme={
+      Object {
+        "borderRadius": Object {
+          "normal": "8px",
+          "small": "4px",
+        },
+        "brand": "dn",
+        "colors": Object {
+          "black": "#3a3a3a",
+          "mint_green": "#47d7ac",
+          "pepper_black_15": "#dadad9",
+          "pepper_black_35": "#b1adab",
+          "primary": "#21bbb1",
+          "primary_15": "#def5f4",
+          "primary_30": "#bceae7",
+          "white": "#ffffff",
+        },
+        "fontFamilies": Object {
+          "demi": "\\"Galano Grotesque Medium\\", sans-serif;",
+          "medium": "\\"Galano Grotesque Medium\\", sans-serif;",
+          "oldDemi": "\\"Dunbar Tall Medium\\", sans-serif;",
+          "regular": "\\"Galano Grotesque Regular\\", sans-serif;",
+        },
+        "fontScale": Object {
+          "body": "16px/1.5",
+          "h1": "44px/1",
+          "h2": "32px/1.3",
+          "h3": "24px/1",
+          "h4": "24px/1.5",
+          "h5": "24px/0",
+          "small": "14px/1.5",
+          "tiny": "10px/1.5",
+        },
+        "fontStyle": Object {
+          "body": "16px/1.5 \\"Galano Grotesque Regular\\", sans-serif;",
+          "h1": "44px/1 \\"Galano Grotesque Medium\\", sans-serif;",
+          "h2": "32px/1.3 \\"Galano Grotesque Medium\\", sans-serif;",
+          "h3": "24px/1 \\"Galano Grotesque Medium\\", sans-serif;",
+          "h4": "24px/1.5 \\"Galano Grotesque Regular\\", sans-serif;",
+          "h5": "24px/0 \\"Galano Grotesque Medium\\", sans-serif;",
+          "small": "14px/1.5 \\"Galano Grotesque Regular\\", sans-serif;",
+          "tiny": "10px/1.5 \\"Galano Grotesque Medium\\", sans-serif;",
+        },
+        "iconSizes": Object {
+          "large": "37px",
+          "small": "22px",
+        },
+        "mealAttribute": Object {
+          "color": "#3a3a3a",
+          "margin": "0 10px 10px 0",
+        },
+        "mealTypeIcons": Object {
+          "FISH": "/images/dn/fish.svg",
+          "MEAT": "/images/dn/meat.svg",
+          "VEGGIE": "/images/dn/veggie.svg",
+        },
+        "pill": Object {
+          "borderRadius": "100px",
+        },
+        "spacings": Object {
+          "large": "15px",
+          "medium": "10px",
+          "mega": "20px",
+          "small": "5px",
+        },
+        "tonals": Object {
+          "t10": "#747475",
+          "t20": "#b9b9ba",
+          "t30": "#f4f2f9",
+        },
+      }
+    }
+  >
+    <styled.div>
+      <div
+        className="c0"
+      >
+        <OptionDn
+          checked={true}
+          key="0"
+          label="Mon"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={0}
+        >
+          <styled.label
+            checked={true}
+            htmlFor="deliveryDay__0"
+            onChange={[Function]}
+          >
+            <label
+              checked={true}
+              className="c1"
+              htmlFor="deliveryDay__0"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__0"
+                name="deliveryDay"
+                value={0}
+              >
+                <styled.input
+                  id="deliveryDay__0"
+                  name="deliveryDay"
+                  type="radio"
+                  value={0}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__0"
+                    name="deliveryDay"
+                    type="radio"
+                    value={0}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Mon
+            </label>
+          </styled.label>
+        </OptionDn>
+        <OptionDn
+          checked={false}
+          key="1"
+          label="Tue"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={1}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__1"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__1"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__1"
+                name="deliveryDay"
+                value={1}
+              >
+                <styled.input
+                  id="deliveryDay__1"
+                  name="deliveryDay"
+                  type="radio"
+                  value={1}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__1"
+                    name="deliveryDay"
+                    type="radio"
+                    value={1}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Tue
+            </label>
+          </styled.label>
+        </OptionDn>
+        <OptionDn
+          checked={false}
+          key="2"
+          label="Wed"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={2}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__2"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__2"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__2"
+                name="deliveryDay"
+                value={2}
+              >
+                <styled.input
+                  id="deliveryDay__2"
+                  name="deliveryDay"
+                  type="radio"
+                  value={2}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__2"
+                    name="deliveryDay"
+                    type="radio"
+                    value={2}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Wed
+            </label>
+          </styled.label>
+        </OptionDn>
+        <OptionDn
+          checked={false}
+          key="3"
+          label="Thu"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={3}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__3"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__3"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__3"
+                name="deliveryDay"
+                value={3}
+              >
+                <styled.input
+                  id="deliveryDay__3"
+                  name="deliveryDay"
+                  type="radio"
+                  value={3}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__3"
+                    name="deliveryDay"
+                    type="radio"
+                    value={3}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Thu
+            </label>
+          </styled.label>
+        </OptionDn>
+      </div>
+    </styled.div>
+  </OptionGroup>
+</WithTheme(OptionGroup)>
+`;
+
+exports[`OptionGroup renders correctly with ms theme 1`] = `
+.c2 {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  -webkit-clip: rect(1px,1px,1px,1px);
+  clip: rect(1px,1px,1px,1px);
+}
+
+.c1 {
+  background-color: #ffffff;
+  border: 1px solid #b1adab;
+  border-right: none;
+  border-top: 6px solid #dadad9;
+  box-shadow: 0 -1px 0 #b1adab;
+  cursor: pointer;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font: 14px/1.5 "Avenir Regular",sans-serif;
+  margin: 0 0 25px;
+  padding: 15px 0;
+  text-align: center;
+  border-top-color: #47d7ac;
+  font-family: "Avenir Demi",sans-serif;
+}
+
+.c1:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.c1:last-child {
+  border-right: 1px solid #b1adab;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.c3 {
+  background-color: #ffffff;
+  border: 1px solid #b1adab;
+  border-right: none;
+  border-top: 6px solid #dadad9;
+  box-shadow: 0 -1px 0 #b1adab;
+  cursor: pointer;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font: 14px/1.5 "Avenir Regular",sans-serif;
+  margin: 0 0 25px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.c3:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.c3:last-child {
+  border-right: 1px solid #b1adab;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<WithTheme(OptionGroup)
+  name="deliveryDay"
+  onSelect={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "label": "Mon",
+        "value": 0,
+      },
+      Object {
+        "label": "Tue",
+        "value": 1,
+      },
+      Object {
+        "label": "Wed",
+        "value": 2,
+      },
+      Object {
+        "label": "Thu",
+        "value": 3,
+      },
+    ]
+  }
+>
+  <OptionGroup
+    name="deliveryDay"
+    onSelect={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Mon",
+          "value": 0,
+        },
+        Object {
+          "label": "Tue",
+          "value": 1,
+        },
+        Object {
+          "label": "Wed",
+          "value": 2,
+        },
+        Object {
+          "label": "Thu",
+          "value": 3,
+        },
+      ]
+    }
+    theme={
+      Object {
+        "borderRadius": Object {
+          "normal": "8px",
+          "small": "4px",
+        },
+        "brand": "ms",
+        "colors": Object {
+          "black": "#2d2926",
+          "mint_green": "#47d7ac",
+          "pepper_black_15": "#dadad9",
+          "pepper_black_35": "#b1adab",
+          "primary": "#47d7ac",
+          "white": "#ffffff",
+        },
+        "fontFamilies": Object {
+          "demi": "\\"Avenir Demi\\", sans-serif;",
+          "medium": "\\"Avenir Medium\\", sans-serif;",
+          "regular": "\\"Avenir Regular\\", sans-serif;",
+        },
+        "fontScale": Object {
+          "body": "16px/1.5",
+          "h1": "36px/1.5",
+          "h2": "32px/1.5",
+          "h3": "28px/1",
+          "h4": "24px/1.5",
+          "h5": "20px/0",
+          "small": "14px/1.5",
+          "tiny": "10px/1.5",
+        },
+        "fontStyle": Object {
+          "body": "16px/1.5 \\"Avenir Regular\\", sans-serif;",
+          "h1": "36px/1.5 \\"Avenir Medium\\", sans-serif;",
+          "h2": "32px/1.5 \\"Avenir Regular\\", sans-serif;",
+          "h3": "28px/1 \\"Avenir Medium\\", sans-serif;",
+          "h4": "24px/1.5 \\"Avenir Regular\\", sans-serif;",
+          "h5": "20px/0 \\"Avenir Medium\\", sans-serif;",
+          "small": "14px/1.5 \\"Avenir Regular\\", sans-serif;",
+          "tiny": "10px/1.5 \\"Avenir Demi\\", sans-serif;",
+        },
+        "iconSizes": Object {
+          "large": "37px",
+          "small": "22px",
+        },
+        "mealTypeIcons": Object {
+          "FISH": "/images/ms/fish.svg",
+          "MEAT": "/images/ms/meat.svg",
+          "VEGGIE": "/images/ms/veggie.svg",
+        },
+        "pill": Object {
+          "borderRadius": "none",
+        },
+        "spacings": Object {
+          "large": "15px",
+          "medium": "10px",
+          "mega": "15px",
+          "small": "5px",
+        },
+        "tonals": Object {
+          "t10": "#413b38",
+          "t20": "#716d6a",
+          "t30": "#f6f6f6",
+        },
+      }
+    }
+  >
+    <styled.div>
+      <div
+        className="c0"
+      >
+        <Option
+          checked={true}
+          key="0"
+          label="Mon"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={0}
+        >
+          <styled.label
+            checked={true}
+            htmlFor="deliveryDay__0"
+            onChange={[Function]}
+          >
+            <label
+              checked={true}
+              className="c1"
+              htmlFor="deliveryDay__0"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__0"
+                name="deliveryDay"
+                value={0}
+              >
+                <styled.input
+                  id="deliveryDay__0"
+                  name="deliveryDay"
+                  type="radio"
+                  value={0}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__0"
+                    name="deliveryDay"
+                    type="radio"
+                    value={0}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Mon
+            </label>
+          </styled.label>
+        </Option>
+        <Option
+          checked={false}
+          key="1"
+          label="Tue"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={1}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__1"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__1"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__1"
+                name="deliveryDay"
+                value={1}
+              >
+                <styled.input
+                  id="deliveryDay__1"
+                  name="deliveryDay"
+                  type="radio"
+                  value={1}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__1"
+                    name="deliveryDay"
+                    type="radio"
+                    value={1}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Tue
+            </label>
+          </styled.label>
+        </Option>
+        <Option
+          checked={false}
+          key="2"
+          label="Wed"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={2}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__2"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__2"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__2"
+                name="deliveryDay"
+                value={2}
+              >
+                <styled.input
+                  id="deliveryDay__2"
+                  name="deliveryDay"
+                  type="radio"
+                  value={2}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__2"
+                    name="deliveryDay"
+                    type="radio"
+                    value={2}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Wed
+            </label>
+          </styled.label>
+        </Option>
+        <Option
+          checked={false}
+          key="3"
+          label="Thu"
+          name="deliveryDay"
+          onChecked={[Function]}
+          value={3}
+        >
+          <styled.label
+            checked={false}
+            htmlFor="deliveryDay__3"
+            onChange={[Function]}
+          >
+            <label
+              checked={false}
+              className="c3"
+              htmlFor="deliveryDay__3"
+              onChange={[Function]}
+            >
+              <HiddenRadioButton
+                id="deliveryDay__3"
+                name="deliveryDay"
+                value={3}
+              >
+                <styled.input
+                  id="deliveryDay__3"
+                  name="deliveryDay"
+                  type="radio"
+                  value={3}
+                >
+                  <input
+                    className="c2"
+                    id="deliveryDay__3"
+                    name="deliveryDay"
+                    type="radio"
+                    value={3}
+                  />
+                </styled.input>
+              </HiddenRadioButton>
+              Thu
+            </label>
+          </styled.label>
+        </Option>
+      </div>
+    </styled.div>
+  </OptionGroup>
+</WithTheme(OptionGroup)>
+`;
